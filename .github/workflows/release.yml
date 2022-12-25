@@ -18,7 +18,7 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn run lint:prettier
       - run: yarn run lint:eslint
-      - uses: jetli/wasm-pack-action@v0.4.0
+      - run: cargo install  wasm-pack
       - run: yarn run build
       - run: yarn run lint:typescript
       - run: yarn test

@@ -12,7 +12,7 @@ jobs:
         with:
           cache: yarn
           node-version-file: .nvmrc
-      - uses: jetli/wasm-pack-action@v0.4.0
+      - run: cargo install  wasm-pack
       - uses: andresz1/size-limit-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
