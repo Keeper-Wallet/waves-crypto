@@ -50,9 +50,9 @@
     "semantic-release-export-data": "^1.0.1",
     "size-limit": "^8.1.0",
     "typescript": "^5.0.0",
-    "vitest": "0.32.0"
+    "vitest": "^0.34.0"
   },
   "resolutions": {
-    "vite": "4.4.11"
+    "vite": "4.4.12"
   }
 }
